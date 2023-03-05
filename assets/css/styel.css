@@ -1,0 +1,118 @@
+body{
+  background: #fafafa;
+}
+
+
+#left-faq{
+  color:#004f77; position: relative; left: 40px;
+}
+
+
+@media (max-width: 1199px) {
+  #left-faq {
+    position: relative;
+    left: 0px;
+  }
+  /* #main {
+    margin-left: 0;
+  } */
+}
+
+.color-class{
+  color: #000;
+}
+
+.color{
+  background-color: #f0c40f;
+  padding: 10px;
+}
+
+
+
+#co{
+   height: 100vh;
+   background-image: url("dua.jpg");
+  background-color: #53A7E7;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/* css part 2 */
+.dotted{
+  border-left: 2px black dotted;
+ 
+}
+
+.left-text{
+  position: relative;
+  left: 25px;
+}
+@media (max-width: 1199px) {
+.left-text {
+position: relative;
+left: 5px;
+}
+}
+
+
+.background-color{
+  background: #2c2c2c;
+  color: #fff;
+}
+
+.dotted-color{
+  border-left: 2px black dotted;
+ 
+}
+
+@media (max-width: 1199px) {
+  .img-top {
+  position: relative;
+   bottom: 50px;
+  }
+  }
+
+
+  .img-hight{
+    height: 60vh;
+  }
+ 
+  .dotted-white-color{
+    border-left: 2px #fff dotted;
+   
+  }
+
+  .img-bottom{
+    position: relative;
+    bottom: 50px;
+  }
+
+  @media (max-width: 1199px) {
+    .img-bottom {
+    position: relative;
+     bottom: 0px;
+    }
+    }
+
+
+    .button-top{
+      position: relative;
+    top: 200px;
+    }
+    
+  @media (max-width: 1199px) {
+    .button-top{
+      position: relative;
+    top: 0px;
+    }
+    }
+
+
+    .button-boder{
+      border-radius: 25px;
+    }
+    .border-radius{
+      border-radius: 50px 50px;
+    }
